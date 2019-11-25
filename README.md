@@ -3,7 +3,7 @@ for learning django
 Now for making a blog site
 
 [Django Web Framework Class from moz://a](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django)
-[Current Section:](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website) @ "Creating the catalog application"
+[Current Section:](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Models) @ "Common field types"
 
 ## upgrade Notes:
 * I liked the idea of writing blog posts in markdown then having them converted to html [this may work](https://www.imzjy.com/blog/2018-05-20-render-the-markdown-in-django)
@@ -19,3 +19,4 @@ Now for making a blog site
   * Right-click on container > config. Add "python path_to/manage.py runserver 0.0.0.0:8000" to the command list"
   * Edit settings.py and add your codeanywhere app url to the ALLOWED_HOSTS list.
     * format: **container**-**username**.codeanyapp.com
+* don't forget to set TIME_ZONE = 'America/Denver' in settings.py
