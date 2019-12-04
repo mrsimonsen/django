@@ -124,3 +124,6 @@ STATIC_URL = '/static/'
 
 # Redirect to homw URL after login (Default redirects to /accounts/progile/)
 LOGIN_REDIRECT_URL = '/'
+
+# Testing emails -> log email to the console to console
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
