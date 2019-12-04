@@ -24,7 +24,7 @@ figure{margin:1em 40px}
 hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
 pre{overflow:auto}
 code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}
-button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}
+button,input,optgroup,select,textarea{font:inherit;margin:0}
 button{overflow:visible}
 button,select{text-transform:none}
 button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
@@ -1400,7 +1400,7 @@ a.list-group-item-danger.active:hover,a.list-group-item-danger.active:focus{back
 .modal .close{color:#333}
 .popover{color:#333}
 h1 small{font-size:45%}
-p>a,li>a{text-decoration:underline}
+p>a{text-decoration:underline}
 ul.navbar-nav>li>a{text-decoration:none}
 div.content p{text-align:justify}
 .callout{margin:20px 0 20px 0;padding:20px;border:1px solid #eee;border-left-width:5px;border-radius:3px}
