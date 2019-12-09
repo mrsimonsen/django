@@ -4,7 +4,7 @@ Now for making a blog site
 
 [Django Web Framework Class from moz://a](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django)
 
-[\*Current Section\*](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Testing#Forms)
+[\*Current Section\*](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Testing#Views)
 
 ## upgrade Notes:
 * I liked the idea of writing blog posts in markdown then having them converted to html [this may work](https://www.imzjy.com/blog/2018-05-20-render-the-markdown-in-django)
