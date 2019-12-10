@@ -2,6 +2,8 @@
 for learning django
 Now for making a blog site
 
+Current Error: assertFormError() context comes back as None - I think it's on line 275 of test_views.py
+
 [Django Web Framework Class from moz://a](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django)
 
 [\*Current Section\*](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Testing#Testing_views_with_forms)
