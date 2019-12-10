@@ -270,15 +270,15 @@ class RenewBookInstancesViewTest(TestCase):
         self.assertRedirects(response, reverse('all-borrowed'))
 
     def test_form_invalid_renewal_date_past(self):
-        login = self.client.login(username='testuser2', password='2HJ1vRV0Z&3id')
+        login = self.client.login(username='testuser2', password='2HJ1vRV0Z&3iD')
         date_in_past = datetime.date.today() - datetime.timedelta(weeks=1)
         response = self.client.post(reverse('renew-book-librarian', kwargs={'pk': self.test_bookinstance1.pk}), {'renewal_date': date_in_past})
-        self.assertEqual(response.status_code, 302)
-        self.assertFormError(response, 'form', 'renewal_date', 'Invalid date - renewal in past')
+        self.assertEqual(response.status_code, 200)
+        self.assertFormError(response, 'form', 'renewal_date', 'Invalid date - renewal in the past')
 
     def test_form_invalid_renewal_date_future(self):
-        login = self.client.login(username='testuser2', password='2HJ1vRV0Z&3id')
+        login = self.client.login(username='testuser2', password='2HJ1vRV0Z&3iD')
         invalid_date_in_future = datetime.date.today() + datetime.timedelta(weeks=5)
         response = self.client.post(reverse('renew-book-librarian', kwargs={'pk': self.test_bookinstance1.pk}), {'renewal_date': invalid_date_in_future})
-        self.assertEqual(response.status_code, 302)
-        self.assertFormError(response, 'form', 'renewal_date', 'Invalid date - renewal more than 4 weeks ahead')
+        self.assertEqual(response.status_code, 200)
+        self.assertFormError(response, 'form', 'renewal_date', 'Invalid date - renewal more than 4 weeks')

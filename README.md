@@ -6,7 +6,7 @@ Current Error: assertFormError() context comes back as None - I think it's on li
 
 [Django Web Framework Class from moz://a](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django)
 
-[\*Current Section\*](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Testing#Testing_views_with_forms)
+[\*Current Section\*](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Testing#Challenge_yourself)
 
 ## upgrade Notes:
 * I liked the idea of writing blog posts in markdown then having them converted to html [this may work](https://www.imzjy.com/blog/2018-05-20-render-the-markdown-in-django)
